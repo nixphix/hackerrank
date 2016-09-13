@@ -2,7 +2,7 @@
 import collections
 
 def mean(lst):
-    return round(sum(lst)/(len(lst) if len(lst)!=0 else 1),1)
+    return round(sum(lst)/(len(lst) if len(lst)!=0 else 0),1)
 
 def median(lst):
     lst.sort()
